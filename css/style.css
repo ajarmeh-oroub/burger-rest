@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.logo{
+color:rgb(255, 255, 255);
+ font-family : "Dancing Script", cursive;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+font-size: 32px;
+line-height: 48px;
+padding: 6px;
+margin: 0px 25px;
+
+}
+.btn-primary {
+   background-color:  #FFBE33;
+   border-radius: 24px;
+   color:white ;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   line-height: 24px;
+   font-size: 16px;
+   font-style: normal;
+   width: fit-content;
+   /* height: fit-content; */
+justify-content: center;
+   padding:5px 20px 5px 20px ;
+  
+}
+.btn-secondary{
+ margin:0px 20px 0px 100px;
+}
+.main{
+    background-image: url('/burger-resturant/images/burger.jpeg') ;
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 750px;
+  margin-bottom: 100px;
+
+ 
+
+}
+
+.nav-main{
+
+display: flex;
+width: 100%;
+width: max-content;
+justify-content: space-around;
+align-items:center ;
+}
+
+.icons-btn{
+    align-items: center;
+    margin: 100px;
+}
+
+
+.icons-header{
+width: 25px;
+height: 25px;
+padding: 6px;
+margin: 6px;
+}
+
+
+.nav-items{
+    
+    list-style: none;
+    display: flex;
+    color:white ;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 6px 200px 0px 250px;
+    padding: 8px;
+    align-items: center;
+  
+   
+}
+ 
+.item{
+  
+    margin-left: 20px;
+    margin: right 20px; ;
+    padding: 4px;
+   
+}
+
+.hreo-title{
+    font-family : "Dancing Script", cursive;
+    line-height: 67px;
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    color:  rgb(255, 255, 255) ;
+    margin: 100px 100px 10px 100px;
+}
+
+.hreo-info{
+    color:  rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    width: 45%;
+    margin:  10px 100px 10px 100px;
+}
+
+.discounts{
+display: flex;
+justify-content: center;
+margin: 50px;
+
+}
+
+.coupons{
+font-family:"Dancing Script", cursive; 
+color: white;
+font-size: 24px;
+font-weight: 500;
+font-style: normal;
+line-height: 29px;
+display: flex;
+margin: 6px 14px 15px 14px;
+padding: 10px;
+justify-content:left;
+height: 198px;
+width: 549px;
+background-color: #222831;
+border-radius: 6px;
+}
+.coupons-writings{
+    justify-content: left;
+    margin-top: 20px;
+    padding: 10px;
+    
+    }
+
+.cupons-img{
+   margin-top: 12px;
+    border-radius: 50%;
+    border: #FFBE33 solid 2px;
+    height:162px;
+    width: 162px;
+}
+.percent{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin:6px 0px;
+}
+.coupon-title{
+    margin:6px 0px;
+    padding: 4px;
+}
+.pecent-inner {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.icons-discounts{
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    margin: 0px;
+    }
+.menu-title{
+    font-family:'Dancing Script',cursive; 
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin: 75px 0px 50px 0px;
+}
+.menu-list{
+ 
+  
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+   
+
+}
+.menu-item{
+
+margin: 20px;
+
+}
+.menu-item-link{
+    text-decoration: none;
+    color: black;
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.menu-content-row{
+    display: flex;
+    justify-content: center;
+}
+.menu-content-box{
+    background-color: #222831;
+    width: 362px;
+    height: 430px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-family:"Open Sans", sans-serif ;
+    text-align: left;
+    justify-content: center;
+    margin: 16px;
+}
+.menu-writings{
+    margin: 20px;
+    padding: 4px;
+    
+}
+.box-img{
+    width: 150px;
+    height: 145px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -70px 0 0 -70px; 
+
+}
+.box{
+   
+    background-color: #F1F2F3;
+    width: 100%;
+    height: 50%;
+    position: relative;  
+    border-radius:20px 20px 0px 30px ;
+   
+}
+.box-title{
+   
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 6px 0px;
+   
+}
+.box-des{
+font-size: 15px;
+font-weight: 400;
+line-height: 23px;
+margin-top: 6px ;
+margin-bottom: 10px;
+}
+.box-price{
+    font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+margin-left: 10px;
+margin-top: 16px;
+
+}
+
+.box-footer{
+   display: flex;
+   margin-top:20px;
+  
+}
+.material-icons{
+    /* width: 20px;
+height: 20px; */
+margin-top: 8px;
+margin-left: 4px;
+padding: 4px;
+
+}
+.box-icon-outter{
+    background-color: #FFBE33;
+border-radius: 50%;
+width: 40px;
+height:40px;
+justify-content: center;
+margin-left: 230px;
+}
+.menu-btn{
+    padding: 10px 50px;
+  margin :20px 525px;
+  
+}
+
+.about{
+ background-color:  #222831;
+ display: flex;
+ margin-top:100px;
+ height: fit-content;
+}
+.img-about{
+    width: 445px;
+    height: 620px;
+    padding: 40px;
+    margin:80px 14px 20px 70px ;
+}
+
+.about-writings{
+    margin: 300px 40px;
+    color: white;
+   
+   
+}
+.about-title{
+    font-family:  'Dancing Script',cursive;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+
+}
+
+.about-content{
+    font-family:"Open Sans", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-top: 16px;
+    margin-bottom: 6px;
+    margin-left: 8px;
+
+}
+.btn-about{
+    margin-top: 24px;
+    margin-left: 6px;
+    padding: 10px 44px;
+}
+.book{
+    margin:80px 50px;
+}
+.book-info{
+    display: flex;
+}
+
+.frm-fields{
+width: 500px;
+height: 10px;
+margin: 16px;
+border: 1px;
+border-radius: 4px;
+padding: 20px;
+font-family:"Open Sans", sans-serif ;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+color: #222831;
+}
+.book-title{
+    font-family:  'Dancing Script',cursive;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin: 16px;
+}
+.frm-fields-opt{
+    font-family:"Open Sans", sans-serif ;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+color: #222831;
+}
+.btn-book{
+    margin: 30px;
+    padding:14px 70px;
+    font-size: 16px;
+}
+.reviews{
+    margin: 10px;
+}
+
+.reviews-title{
+text-align: center;
+
+}
+.reviews-box{
+    display: flex;
+    
+    
+}
+.opinions{
+    background-color: #222831;
+    margin: 30px 30px 30px 25px;
+    border-radius: 4px;
+}
+.opinions-words{
+    color: white;
+    font-family:"Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    padding: 16px;
+    /* width: 50%; */
+ 
+}
+.reviews-name{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.contact-title{
+    font-family:  'Dancing Script',cursive;
+    font-size: 28px;
+    line-height:34px;
+    font-weight: 600;
+    margin: 16px;
+
+}
+
+footer{
+    color: white;
+    background-color: #222831;
+
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+    padding: 70px;
+}
+.foot{
+    margin: 20px;
+    padding: 4px;
+    width: 350px;
+    
+}
+.footer-title{
+    font-family : "Dancing Script", cursive;
+    line-height: 38px;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    color:  rgb(255, 255, 255) ;
+    /* margin: 16px ; */
+
+}
+.footer-container{
+    display:flex;
+    
+}
+.footer-rights{
+    font-family:"Open Sans", sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #FFBE33;
+}
+.active{
+color: white;
+background-color:#222831 ;
+border-radius: 16px;
+padding: 4px 20px;
+}
